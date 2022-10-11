@@ -1,0 +1,6 @@
+command:ls
+usage: ls command is used to display a list of content of a directory.
+syntax:ls
+example:ls
+output:
+Main Myname
