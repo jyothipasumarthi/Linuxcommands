@@ -1,0 +1,5 @@
+command:cd 
+ cd command is used to change the current directory.
+ syntax:cd<directoryname>
+ example:cd <desktop>
+ desktop
