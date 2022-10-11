@@ -1,0 +1,4 @@
+command:mv
+ mv command is used to move a file or a directory form one location to another location.
+ syntax:mv <file name> <directory path>  
+ example:mv demo1.txt C:\Linux
