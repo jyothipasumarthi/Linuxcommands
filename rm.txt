@@ -1,0 +1,4 @@
+command:rm
+used to remove a file or directory.
+syntax:rm<filename>
+example:rm<mkdir.txt>
