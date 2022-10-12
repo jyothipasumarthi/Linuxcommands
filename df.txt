@@ -1,0 +1,5 @@
+command:df(diskfile system)
+used to display the disk space used in the file system. 
+It defines the number of blocks used, the number of blocks available, and the directory where the file system is mounted.
+syntax:df [OPTION]... [FILE]... 
+example:df -T
