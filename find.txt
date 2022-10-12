@@ -1,0 +1,8 @@
+command:find
+It is used to find a particular file within a directory. 
+It also supports various options to find a file such as byname, by type, by date, and more.
+(.) : For current directory name
+(/) : For root
+
+Syntax:find . -name "*.pdf"  
+example:find . -name "*.order.c"
