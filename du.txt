@@ -1,0 +1,7 @@
+command:du(disk usage)
+used to check the information of disk usage of files and directories on a system.
+syntax:du
+example:du -h
+//Display in human readable format
+example:du -c 
+//Display grand total in the output

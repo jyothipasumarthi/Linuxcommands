@@ -1,0 +1,4 @@
+command:sudo
+When the sudo command is used, a timestamp is entered in the system logs.
+The user can run commands with elevated privileges for a short time
+syntax:sudo[command]
