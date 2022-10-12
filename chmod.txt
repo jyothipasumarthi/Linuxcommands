@@ -1,0 +1,5 @@
+command:chmod(change mode)
+used to change the access permissions of files and directories.
+syntax:chmod <options> <permissions> <file name> 
+example:chmod o+w *.c 
+ls -l *.c
