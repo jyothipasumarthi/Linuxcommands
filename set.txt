@@ -1,0 +1,4 @@
+command:set
+It provides an extensive list of options that can be combined.
+syntax:set [options]
+example:set -x
