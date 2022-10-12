@@ -1,0 +1,5 @@
+command:grep
+useful for searching the content from a file. Generally, it is used with the pipe.
+syntax:command | grep <searchWord>  
+example:cat add.c | grep f 
+
