@@ -1,0 +1,42 @@
+Delete
+Delete removes the indicated text from the page and saves it into the buffer,
+ the buffer being the equivalent of the "clipboard" used in Windows or Mac OSX. 
+ The following table provides some common usage examples:
+
+Action	Result
+dd	    Delete current line
+3dd	    Delete the next three lines
+dw	    Delete the current word
+d3w	    Delete the next three words
+d4h	    Delete four characters to the left
+
+
+Change
+Change is very similar to delete;
+the text is removed and saved into the buffer, 
+however, the program is switched to insert mode to allow immediate changes to the text.
+The following table provides some common usage examples:
+
+Action	Result
+cc	    Change current line
+cw	    Change current word
+c3w 	Change the next three words
+c5h	    Change five characters to the left
+
+Yank
+Yank places content into the buffer without deleting it. 
+The following table provides some common usage examples:
+
+Action	Result
+yy	    Yank current line
+3yy	    Yank the next three lines
+yw	    Yank the current word
+y$	    Yank to the end of the line
+
+Put
+Put places the text saved in the buffer either before or after the cursor position. 
+Notice that these are the only two options, put does not use the motions like the previous action commands.
+
+Action	Result
+p	    Put (paste) after cursor
+P	    Put before cursor

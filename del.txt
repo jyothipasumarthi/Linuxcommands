@@ -1,0 +1,11 @@
+Delete
+Delete removes the indicated text from the page and saves it into the buffer,
+ the buffer being the equivalent of the "clipboard" used in Windows or Mac OSX. 
+ The following table provides some common usage examples:
+
+Action	Result
+dd	    Delete current line
+3dd	    Delete the next three lines
+dw	    Delete the current word
+d3w	    Delete the next three words
+d4h	    Delete four characters to the left
